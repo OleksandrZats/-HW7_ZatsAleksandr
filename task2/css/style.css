@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #464f54;
+}
+header {
+  margin-top: 47px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.title-container {
+  background-color: #181818;
+  width: 73%;
+  padding: 45px 0 45px 68px;
+}
+.title-container input {
+  width: 100%;
+  height: 42px;
+  background-color: #181818;
+  border: none;
+  border-bottom: solid 3px rgba(255, 255, 255, 0.1);
+  outline: none;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: #fefefe;
+  padding-bottom: 11px;
+}
+
+.title-container .title-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.19em;
+
+  color: #767676;
+}
+
+.format-container {
+  display: flex;
+  width: 67.6%;
+  background: #fbc02d;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  padding: 20px;
+  align-items: center;
+}
+.format-container img {
+  margin: 0 2%;
+  opacity: 50%;
+}
+
+.format-container img:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+main {
+  background-color: white;
+  margin: -10% 79px 0;
+  padding-left: 6.2%;
+}
+main section {
+  border-left: solid 2px #e8eced;
+  padding-left: 5.6%;
+  padding-top: 19%;
+  padding-right: 11.2%;
+  padding-bottom: 5.6%;
+}
+.author-text {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+
+  color: #b4b4b4;
+
+  margin-bottom: 2%;
+}
+h1 {
+  font-family: "Futura PT";
+  font-weight: 600;
+  font-size: 78px;
+  line-height: 100px;
+
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #2a2a2a;
+}
+.comment-text {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #8f8f8f;
+
+  margin-bottom: 5.7%;
+}
+section p {
+  font-family: Georgia;
+  font-size: 27px;
+  line-height: 40px;
+
+  color: #000000;
+  margin-bottom: 3.4%;
+}
